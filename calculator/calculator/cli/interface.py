@@ -18,7 +18,7 @@ class CalculatorCLI:
         
         #Dictionary to map user input to respective operation
         math_operations = {
-            "1": addition() 
+            "1": addition(num1,num2) 
         }
 
 
