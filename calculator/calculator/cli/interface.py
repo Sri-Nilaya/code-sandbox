@@ -2,7 +2,7 @@ from calculator.core.operations import Calculator
 class CalculatorCLI:
     def perform_calculation(self, num1, num2, selected_operation):
                             calculation = Calculator(num1,num2)
-                            math_operations(selected_operation)
+                            
 
                             #Dictionary to map user input to respective operation
                             math_operations = {
@@ -11,6 +11,7 @@ class CalculatorCLI:
                                     "3": calculation.multiplication(),
                                     "4": calculation.division()     
                                 } 
+                            
 
 
     def  get_valid_inputs(self,selected_operation):
